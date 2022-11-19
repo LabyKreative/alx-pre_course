@@ -1,0 +1,10 @@
+$ git config --global core.excludesfile ~/.gitignore_global
+# _*_ mode: gitignore; _*_
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
